@@ -4,15 +4,32 @@ body{
 }
 
 textarea{
-    background-color: rgb(101, 130, 137);
+   /* background-color: rgb(101, 130, 137);
     border: 2px solid #ccc;    
     display:block;
     margin-left: auto;
     margin-right: auto;   
-    margin-top: -1rem; 
+    margin-top: -1rem; */
+
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(101, 130, 137);
+    border: 2px solid #3f7ea8;
+    border-radius: 2px;
+    /*resize: none;*/
+    margin-bottom: 35px;    
+    padding: 10px;
+    font-size: 20px;
 }
 
-
+.container{
+    background-color: white;
+    width: 430px;
+    padding: 40px 20px;  
+    margin-top: 3rem;
+    border-radius: 2px;
+}
 
 h1{
     text-align: center;
@@ -20,8 +37,32 @@ h1{
 
 #outputName{
     text-align: center;
+    color:black;
 }
 
+button{
+  background-color: #3f7ea8;
+  color: #fff;
+  font-size: 20px;
+  height: 3rem;
+  border: none;
+  border-radius: 2px;
+  width: 174px;
+  cursor: pointer;  
+}
+
+input{
+width: calc(100% - 200px);
+border: 2px solid #3f7ea8;
+border-radius: 2px;
+background-color: transparent;
+color: #052a53;
+padding: 0 10px;
+height: 50px;
+line-height: 50px;
+font-size: 20px;
+margin-right: 20px;
+}
 
 
 
