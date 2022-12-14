@@ -19,10 +19,11 @@ function getApi(){
            let properties=data.result[0].properties;
            console.log(data);
            console.log(properties);
-           let s=`Height: ${properties.height}\nMass: ${properties.mass}\nGender: ${properties.gender}\nHair color: ${properties.hair_color}`;
-           console.log(s);
-           outputName.innerHTML=`Info about ${properties.name}:`;
-           output.innerHTML=s;            
+           let propString=`${properties.name}\nHeight: ${properties.height}\nMass: ${properties.mass}\nGender: ${properties.gender}\nHair color: ${properties.hair_color}`;
+           
+           //outputName.innerHTML=`Info about ${properties.name}:`;
+           //output.innerHTML=`${properties.name}`;
+           output.innerHTML=propString;            
         })
         .catch(err => console.log(err))
 }
