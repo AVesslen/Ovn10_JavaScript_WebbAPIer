@@ -1,0 +1,22 @@
+body{
+/*background-color: brown;*/
+background: linear-gradient(to right, #070000, #4C0001, #070000);
+}
+
+nav{
+    background-color: #070000;
+    color:white;   
+    font-size: 3rem;    
+}
+
+button{
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;;
+}
+
+img{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
