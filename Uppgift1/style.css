@@ -1,43 +1,37 @@
 body{      
-    background-color: rgb(39, 37, 37);
+    background-color: rgb(39, 37, 37);   
     color:white;
 }
 
 textarea{
-   /* background-color: rgb(101, 130, 137);
-    border: 2px solid #ccc;    
-    display:block;
-    margin-left: auto;
-    margin-right: auto;   
-    margin-top: -1rem; */
-
     display: block;
     width: 100%;
     background-color: transparent;
-    color: rgb(101, 130, 137);
-    border: 2px solid #3f7ea8;
-    border-radius: 2px;
-    /*resize: none;*/
-    margin-bottom: 35px;    
-    padding: 10px;
+    color: rgb(33, 43, 45);
     font-size: 20px;
+    border: 0.2rem solid #3f7ea8;
+    border-radius: 0.3rem;    
+    margin-top:2rem;   
+    padding: 0.5rem;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .container{
-    background-color: white;
-    width: 430px;
-    padding: 40px 20px;  
-    margin-top: 3rem;
-    border-radius: 2px;
+    background-color: rgb(230, 219, 219);
+    width: 25rem;
+    padding: 3rem 1rem;  
+    margin-top: 4rem;
+    border-radius: 0.3rem;
 }
 
 h1{
-    text-align: center;
+    text-align: center;   
 }
 
-#outputName{
+h4{
     text-align: center;
-    color:black;
+    color:rgb(150, 69, 69);
+    margin-bottom: 2rem;
 }
 
 button{
@@ -46,22 +40,22 @@ button{
   font-size: 20px;
   height: 3rem;
   border: none;
-  border-radius: 2px;
-  width: 174px;
+  border-radius: 0.3rem;
+  width: 10.5rem;
   cursor: pointer;  
+  padding: 0.5rem;
 }
 
 input{
-width: calc(100% - 200px);
-border: 2px solid #3f7ea8;
-border-radius: 2px;
+width:10.5rem;
+border: 0.2rem solid #3f7ea8;
+border-radius: 0.3rem;
 background-color: transparent;
-color: #052a53;
-padding: 0 10px;
-height: 50px;
-line-height: 50px;
+color: black;
+padding: 0.5rem;
+height: 3rem;
 font-size: 20px;
-margin-right: 20px;
+margin-right: 1rem;
 }
 
 
