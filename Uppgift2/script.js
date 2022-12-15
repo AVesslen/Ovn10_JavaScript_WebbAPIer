@@ -1,10 +1,9 @@
-let button=document.querySelector('#button');
-let divOutput=document.querySelector('#output');
+const button=document.querySelector('#button');
+const divOutput=document.querySelector('#output');
 
 function getApi(){    
     
-    let fullUri='https://deckofcardsapi.com/api/deck/new/draw/?count=1';
-    
+    let fullUri='https://deckofcardsapi.com/api/deck/new/draw/?count=1';    
    
     fetch(fullUri)
         .then(res => res.json())
@@ -18,6 +17,5 @@ function getApi(){
         })
         .catch(err => console.log(err))
 }
-
 
 button.addEventListener('click', getApi);
