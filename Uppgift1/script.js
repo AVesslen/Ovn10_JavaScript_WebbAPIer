@@ -1,6 +1,6 @@
-let input=document.querySelector('#input');
-let button=document.querySelector('#button');
-let output=document.querySelector('#output');
+const input=document.querySelector('#input');
+const button=document.querySelector('#button');
+const output=document.querySelector('#output');
 
 function getApi(){    
     
