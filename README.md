@@ -13,6 +13,8 @@ Your task is to build a page where the user enters the name of a Star Wars chara
   c. and prints the information to the output text box
 5. Add an eventListener that listens to the button and runs the above function on click
 
+https://www.swapi.tech/documentation
+
 Result:
 ![bild](https://user-images.githubusercontent.com/116891646/227738328-e01dccf6-364e-4122-8298-2f3c819405e8.png)
 
